@@ -10,17 +10,17 @@ defmodule GqlHydrateWeb.Router do
     plug :put_secure_browser_headers
   end
 
-    pipeline :api do
-      plug :accepts, ["json"]
-      plug Plug.Parsers,
-           parsers: [:urlencoded, :multipart, :json, Absinthe.Plug.Parser],
-           pass: ["*/*"],
-           json_decoder: Jason
+  pipeline :api do
+    plug :accepts, ["json"]
 
-    end
+    plug Plug.Parsers,
+      parsers: [:urlencoded, :multipart, :json, Absinthe.Plug.Parser],
+      pass: ["*/*"],
+      json_decoder: Jason
+  end
 
   scope "/api" do
-        pipe_through :api
+    pipe_through :api
 
     forward "/graphiql", Absinthe.Plug.GraphiQL,
       schema: GqlHydrateWeb.Schema,
