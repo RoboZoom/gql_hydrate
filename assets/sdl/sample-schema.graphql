@@ -1,0 +1,10 @@
+type Person {
+    lastName: String!
+    firstName: String!
+    id: String!
+    phoneNumbers: [String]
+}
+
+type Query {
+    getPeople: [Person]!
+}

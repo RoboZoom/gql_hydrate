@@ -1,0 +1,87 @@
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/doc/
+
+# Jetbrains Configuration files
+/.idea/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Ignore package tarball (built via "mix hex.build").
+gql_hydrate-*.tar
+
+# Ignore assets that are produced by build tools.
+/priv/static/assets/
+
+# Ignore digested assets cache.
+/priv/static/cache_manifest.json
+
+# In case you use Node.js/npm, you want to ignore these.
+npm-debug.log
+/assets/node_modules/
+
+
+.idea/libraries/absinthe.xml
+.idea/libraries/absinthe_plug.xml
+.idea/libraries/benchee.xml
+.idea/libraries/castore.xml
+.idea/libraries/cowboy.xml
+.idea/libraries/cowboy_telemetry.xml
+.idea/libraries/cowlib.xml
+.idea/libraries/dataloader.xml
+.idea/libraries/decimal.xml
+.idea/libraries/dialyxir.xml
+.idea/libraries/ecto.xml
+.idea/libraries/ecto_sql.xml
+.idea/libraries/esbuild.xml
+.idea/libraries/ex_doc.xml
+.idea/libraries/excoveralls.xml
+.idea/libraries/file_system.xml
+.idea/libraries/floki.xml
+.idea/libraries/gettext.xml
+.idea/libraries/hackney.xml
+.idea/libraries/html_entities.xml
+.idea/libraries/jason.xml
+.idea/libraries/kadabra.xml
+.idea/libraries/makeup_eex.xml
+.idea/libraries/makeup_elixir.xml
+.idea/libraries/makeup_graphql.xml
+.idea/libraries/mime.xml
+.idea/libraries/mint.xml
+.idea/libraries/mint_web_socket.xml
+.idea/libraries/mix_test_watch.xml
+.idea/libraries/nimble_parsec.xml
+.idea/libraries/phoenix.xml
+.idea/libraries/phoenix_html.xml
+.idea/libraries/phoenix_live_reload.xml
+.idea/libraries/phoenix_live_view.xml
+.idea/libraries/phoenix_pubsub.xml
+.idea/libraries/phoenix_template.xml
+.idea/libraries/phoenix_view.xml
+.idea/libraries/phx_new.xml
+.idea/libraries/plug.xml
+.idea/libraries/plug_cowboy.xml
+.idea/libraries/plug_crypto.xml
+.idea/libraries/ranch.xml
+.idea/libraries/telemetry.xml
+.idea/libraries/telemetry_metrics.xml
+.idea/libraries/telemetry_poller.xml
+.idea/libraries/x509.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
