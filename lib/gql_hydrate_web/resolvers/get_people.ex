@@ -1,9 +1,10 @@
 defmodule GqlHydrateWeb.Resolvers.GetPeople do
   def resolve_get_people(a, b, c) do
+    IO.puts("In Resolver")
     {:ok,
      [%{
-       lastName: "Smith",
-       firstName: "Joe",
+       last_name: "Smith",
+       first_name: "Joe",
        id: "9ap8sodh"
      }]}
   end
